@@ -169,3 +169,12 @@ button{
     padding: 3px;
     font-weight: bold;
 }
+
+/* Footer of the page */
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-family: "DM Sans";
+    padding: 48px;
+    text-align: center;
+}
