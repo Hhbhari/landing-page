@@ -118,3 +118,28 @@ button{
     font-size: 10px;
     color: #1F2937;
 }
+
+/* Third box of the page */
+.third-column{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "DM Sans";
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 48px 48px 0px 48px;
+    width: 700px;
+}
+
+.author{
+    font-weight: 700;
+    margin: 0px 48px 48px 48px;
+    text-align: end;
+    width: 700px;
+}
