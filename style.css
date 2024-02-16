@@ -143,3 +143,29 @@ button{
     text-align: end;
     width: 700px;
 }
+
+/* Fourth box of the page */
+.fourth-column{
+    margin: 48px;
+    padding: 48px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    font-family: "DM Sans";
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+}
+
+.action{
+    font-weight: bold;
+}
+
+.border{
+    border-color: #E5E7EB;
+    border-style: groove;
+    text-align: center;
+    padding: 3px;
+    font-weight: bold;
+}
