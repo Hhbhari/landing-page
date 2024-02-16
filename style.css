@@ -1,5 +1,31 @@
+/* First blue box of the page */
+
 .first-column{
     background-color: #1F2937;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+/* header flex adjustement */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+}
+
+ul{
+    display: flex;
+    gap: 2em;
+}
+
+/* title and image flex adjustment */
+.content-first{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
 }
 
 .logo{
@@ -9,17 +35,18 @@
     color: #E5E7EB;
 }
 
-.title{
+.title, .subtext, a{
     font-family: "DM Sans";
-    font-size: 48px;
-    font-weight: 700;
     color: #E5E7EB;
 }
 
+.title{
+    font-size: 48px;
+    font-weight: 700;
+}
+
 .subtext, a{
-    font-family: "DM Sans";
     font-size: 18px;
-    color: #E5E7EB;
     text-decoration: none;
 }
 
@@ -27,6 +54,11 @@ ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+
+p, img{
+    margin: 0;
+    padding: 0;
 }
 
 img{
