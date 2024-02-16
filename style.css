@@ -28,6 +28,14 @@ ul{
     padding: 48px;
 }
 
+/* Title, subtext, button are squeezed to maintain the design */
+.left-content{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+}
+
 .logo{
     font-size: 24px;
     font-weight: 700;
@@ -63,11 +71,12 @@ p, img{
 
 img{
     width: 400px;
-    height: 200px;
+    height: 250px;
 }
 
 button{
     background-color: #3882F6;
     color: #E5E7EB;
     border-radius: 5px;
+    width: 100px;
 }
