@@ -72,11 +72,48 @@ p, img{
 img{
     width: 400px;
     height: 250px;
+    border-radius: 5px;
 }
 
 button{
     background-color: #3882F6;
+    text-align: center;
     color: #E5E7EB;
     border-radius: 5px;
     width: 100px;
+}
+
+/* Second box of the page */
+.second-column{
+    font-family: "DM Sans";
+    text-align: center;
+    margin: 48px;
+}
+
+/* title head */
+.information{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+/* bundle of image and text */
+.img-content{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.batman-image{
+    width: 100px;
+    height: 100px;
+}
+
+.info{
+    width: 100px;
+}
+
+.text{
+    font-size: 18px;
+    color: #1F2937;
 }
